@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+
+
+    background-image: url('../static/images/win.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: darksalmon;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background-color:darksalmon;
+}
+
+h2 {
+    color: mediumslateblue;
+}
+
+h3 {
+
+    margin-top: 20px;
+    color: lightcoral;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: lightgrey;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {font-size: 14px;
+    line-height: 1.4;
+    color: #333333;
+    font-family: "Helvetica", sans-serif;
+    margin-bottom: 10px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: lightcyan;
+    color: pink;
+    text-decoration: none;
+}
+
+.parent{
+    display: flex;
+
+}
+.img{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}
+a:hover {
+    background-color: green;
+}
+
+
+#p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+
+
+ .footer{
+     text-align: center;
+ }

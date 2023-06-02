@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../static/style.css" th:href="@{/style.css}">
+  <title>Play</title>
+</head>
+<body>
+<h1 style="text-align: center">Chosen Prize Gift Game</h1>
+<form action="/result" method="post">
+<div class ="parent">
+  <div>
+
+   <header style="width: 500px" >
+     <p id ="p"> <em>The "Chosen Prize Gift Game" is an interactive game where
+       participants select a box from a collection of options.
+       Each box contains a hidden prize or gift.
+       Players make their choice by clicking on a corresponding radio button beside each box.
+       The game adds an element of suspense and excitement as players
+       anticipate the surprise awaiting them in their chosen box.</em></p>
+   </header>
+  <br>
+  <br>
+    </div>
+  <br>
+  <br>
+  <img class="img" src="../static/images/gifs.gif" th:src="@{/images/gifs.gif}" alt="gif">
+  <input type="radio" name="box" value="0"  id="box1">
+
+  <label for="box1">Box 1</label>
+  <img class="img" src="../static/images/gifs.gif" th:src="@{/images/gifs.gif}" alt="gif"><br>
+  <input type="radio" name="box" value="1" id="box2">
+  <label for="box2">Box 2</label>
+  <img class="img" src="../static/images/gifs.gif" th:src="@{/images/gifs.gif}" alt="gif"><br>
+  <input type="radio" name="box" value="2" id="box3">
+  <label for="box3">Box 3</label><br>
+  <img class="img" src="../static/images/gifs.gif" th:src="@{/images/gifs.gif}" alt="gif"><br>
+  <input type="radio" name="box" value="3" id="box4">
+  <label for="box4">Box 4</label><br>
+  <img class="img" src="../static/images/gifs.gif" th:src="@{/images/gifs.gif}" alt="gif"><br>
+  <br>
+</div>
+  <div class ="footer">
+
+    <h3>Muskan Muskan</h3>
+
+  </div>
+  <button type="submit">Play</button>
+</form>
+<script>
+  document.getElementById('box1').checked = true;
+</script>
+</body>
+</html>
